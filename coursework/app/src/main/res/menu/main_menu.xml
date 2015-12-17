@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main"
+        android:title="Home Page"/>
+    <item
+        android:id="@+id/twitter"
+        android:title="Twitter Feed"/>
+    <item
+        android:id="@+id/classes"
+        android:title="Gym Classes"/>
+    <item
+        android:id="@+id/locator"
+        android:title="Gym Locator"/>
+    <item
+        android:id="@+id/About"
+        android:title="About Page"/>
+
+</menu>

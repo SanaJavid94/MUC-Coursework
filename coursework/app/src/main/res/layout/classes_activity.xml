@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/bodyPump"
+        android:text="Body Pump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/bpumptimes"
+        android:text="10:00, 12:00, 14:00, 16:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bodyPump"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/bpump"
+        android:id="@+id/bplogo"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/bpumptimes" />
+
+    <TextView
+        android:id="@+id/circuits"
+        android:text="Circuits"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bpumptimes"/>
+
+    <TextView
+        android:id="@+id/circtimes"
+        android:text="11:00, 13:00, 15:00, 17:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circuits"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/circ"
+        android:id="@+id/circlogo"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@id/circtimes"
+        android:layout_below="@+id/bplogo"/>
+
+    <TextView
+        android:id="@+id/kickboxing"
+        android:text="Kickboxing"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circtimes"/>
+
+    <TextView
+        android:id="@+id/kboxtimes"
+        android:text="08:30, 10:30, 15:30, 17:30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kickboxing"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/kbox"
+        android:id="@+id/kboxlogo"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/kboxtimes"
+        android:layout_below="@+id/circlogo"/>
+
+    <TextView
+        android:id="@+id/pilates"
+        android:text="Pilates"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kboxtimes" />
+
+    <TextView
+        android:id="@+id/pilstimes"
+        android:text="08:00, 09:00, 10:00, 11:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pilates" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/pils"
+        android:id="@+id/pilslogo"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/pilstimes"
+        android:layout_below="@+id/kboxlogo"/>
+
+    <TextView
+        android:id="@+id/zumba"
+        android:text="Zumba"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pilstimes" />
+
+    <TextView
+        android:id="@+id/zumtimes"
+        android:text="10:30, 12:30, 14:30, 16:30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zumba" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/zum"
+        android:id="@+id/zumlogo"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/zumtimes"
+        android:layout_below="@+id/pilslogo"/>
+
+</RelativeLayout>
